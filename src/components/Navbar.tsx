@@ -16,7 +16,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-        <span className="font-serif text-lg tracking-[0.3em] text-primary">ON88</span>
+        <span className="w-16" />
         <div className="hidden md:flex items-center gap-8">
           {["About", "Experience", "Showtimes", "Register"].map((item) => (
             <a

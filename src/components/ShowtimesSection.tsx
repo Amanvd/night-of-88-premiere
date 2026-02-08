@@ -35,7 +35,7 @@ const ShowtimesSection = () => {
             Showtimes
           </p>
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-foreground">
-            Choose Your Night
+            Choose Your <span className="text-red-500">Night</span>
           </h2>
         </div>
 

@@ -23,6 +23,9 @@ const Footer = () => (
       </div>
 
       <p className="text-[10px] tracking-[0.2em] uppercase text-muted-foreground/40 font-sans">
+        Designed and deployed - Aman Chandra
+      </p>
+      <p className="text-[10px] tracking-[0.2em] uppercase text-muted-foreground/40 font-sans">
         © 2025 · All Rights Reserved
       </p>
     </div>

@@ -8,14 +8,15 @@ const HeroSection = () => {
         <img
           src={heroBg}
           alt="Dark atmospheric café interior"
-          className="w-full h-full object-cover opacity-60"
+          className="w-full h-full object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/20 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-background/80 to-background" />
+        <div className="absolute inset-0 bg-background/60" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <p className="animate-fade-up text-xs tracking-[0.5em] uppercase text-primary/80 mb-8 font-sans">
+        <p className="animate-fade-up text-xs tracking-[0.5em] uppercase text-primary/80 mb-8 pt-6 font-sans">
           A Psychological Thriller
         </p>
 

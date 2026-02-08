@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const features = [
-  { icon: "☕", title: "Cozy Luxury Café", desc: "An intimate setting bathed in warm golden light" },
+  { icon: "☕", title: "Cozy Café", desc: "An intimate setting bathed in warm golden light" },
   { icon: "🎬", title: "Immersive Sound", desc: "Cinema-grade audio in an enclosed atmosphere" },
   { icon: "✨", title: "Warm Lighting", desc: "Candlelit ambiance that mirrors the film's world" },
   { icon: "🪑", title: "Intimate Seating", desc: "Carefully arranged for the perfect viewing angle" },
@@ -33,7 +33,7 @@ const ExperienceSection = () => {
             The Experience
           </p>
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-foreground">
-            More Than a Screening
+            More Than a <span className="text-primary">Screening</span>
           </h2>
         </div>
 

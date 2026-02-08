@@ -20,8 +20,8 @@ const HeroSection = () => {
         </p>
 
         <h1 className="animate-fade-up-delay-1 font-serif text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black tracking-tight leading-[0.85] mb-6">
-          <span className="block text-gradient">ON THE</span>
-          <span className="block text-gradient">NIGHT</span>
+          <span className="block text-primary">ON THE</span>
+          <span className="block text-primary">NIGHT</span>
           <span className="block text-foreground">OF <span className="text-primary">88</span></span>
         </h1>
 
@@ -38,7 +38,7 @@ const HeroSection = () => {
           </p>
           <a
             href="#register"
-            className="inline-block mt-6 bg-primary text-primary-foreground text-sm tracking-[0.25em] uppercase px-10 py-4 rounded-sm hover:bg-primary/90 transition-all duration-300 font-medium hover:shadow-[0_0_30px_hsl(38_80%_55%/0.3)]"
+            className="inline-block mt-6 bg-primary text-primary-foreground text-sm tracking-[0.25em] uppercase px-8 sm:px-10 py-4 rounded-sm hover:bg-primary/90 transition-all duration-300 font-medium hover:shadow-[0_0_30px_hsl(0_72%_50%/0.3)]"
           >
             Reserve Your Seat
           </a>

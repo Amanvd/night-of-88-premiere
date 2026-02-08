@@ -40,7 +40,7 @@ const RegisterSection = () => {
           href="https://forms.google.com/your-form-link"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-primary text-primary-foreground text-sm tracking-[0.25em] uppercase px-12 py-5 rounded-sm hover:bg-primary/90 transition-all duration-300 font-semibold hover:shadow-[0_0_40px_hsl(38_80%_55%/0.35)] glow-border"
+          className="inline-block bg-primary text-primary-foreground text-sm tracking-[0.25em] uppercase px-8 sm:px-12 py-5 rounded-sm hover:bg-primary/90 transition-all duration-300 font-semibold hover:shadow-[0_0_40px_hsl(0_72%_50%/0.35)] glow-border"
         >
           Register for Screening
         </a>

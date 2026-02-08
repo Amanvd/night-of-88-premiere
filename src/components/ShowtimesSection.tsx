@@ -58,6 +58,30 @@ const ShowtimesSection = () => {
             </div>
           ))}
         </div>
+
+        {/* Venue Location */}
+        <div className="mt-16 text-center">
+          <p className="text-xs tracking-[0.5em] uppercase text-primary mb-4 font-sans">
+            Venue
+          </p>
+          <a
+            href="https://maps.app.goo.gl/mmoS29sJb6nDd4MEA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex flex-col items-center gap-2 hover:text-primary transition-colors"
+          >
+            <h3 className="text-2xl md:text-3xl font-serif font-bold text-foreground group-hover:text-primary transition-colors">
+              The Writer's Room
+            </h3>
+            <span className="inline-flex items-center gap-2 text-sm text-muted-foreground group-hover:text-primary/80 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              View on Google Maps
+            </span>
+          </a>
+        </div>
       </div>
     </section>
   );

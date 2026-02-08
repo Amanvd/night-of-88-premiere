@@ -14,7 +14,7 @@ const RegisterSection = () => {
   }, []);
 
   return (
-    <section id="register" className="py-32 px-6 relative">
+    <section id="register" className="py-20 px-6 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/20 to-background" />
       <div
         ref={ref}
@@ -37,7 +37,7 @@ const RegisterSection = () => {
 
         {/* Replace the href below with your Google Form link */}
         <a
-          href="https://forms.google.com/your-form-link"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdt0TX7XQpam-FrQYLzBljJCti54wiDoRXpq56j7T23vXl6-g/viewform?usp=sharing&ouid=106374463659270462480"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-primary text-primary-foreground text-sm tracking-[0.25em] uppercase px-8 sm:px-12 py-5 rounded-sm hover:bg-primary/90 transition-all duration-300 font-semibold hover:shadow-[0_0_40px_hsl(0_72%_50%/0.35)] glow-border"

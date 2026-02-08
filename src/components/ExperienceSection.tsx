@@ -21,7 +21,7 @@ const ExperienceSection = () => {
   }, []);
 
   return (
-    <section id="experience" className="py-32 px-6 relative">
+    <section id="experience" className="py-20 px-6 relative">
       <div
         ref={ref}
         className={`container mx-auto max-w-5xl transition-all duration-1000 ${

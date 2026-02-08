@@ -2,7 +2,7 @@ const Footer = () => (
   <footer className="border-t border-border/30 py-12 px-6">
     <div className="container mx-auto max-w-4xl flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
       <div>
-        <p className="font-serif text-lg tracking-[0.2em] text-foreground/80">ON THE NIGHT OF 88</p>
+        <p className="font-serif text-lg tracking-[0.2em] text-primary">ON THE NIGHT OF 88</p>
         <p className="text-xs text-muted-foreground mt-1 font-sans">
           A psychological thriller · Private café screening
         </p>
@@ -10,7 +10,7 @@ const Footer = () => (
 
       <div className="flex items-center gap-6">
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/trustmeproductions?igsh=mwh4dwjim2dsngfyzw=="
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted-foreground hover:text-primary transition-colors"

@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/Gemini_Generated_Image_5mdc1n5mdc1n5mdc.png";
 
 const HeroSection = () => {
   return (
@@ -8,7 +8,7 @@ const HeroSection = () => {
         <img
           src={heroBg}
           alt="Dark atmospheric café interior"
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover opacity-90"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-background/95 to-background" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/70" />

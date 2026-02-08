@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import posterBg from "../assets/RSVP - Poster 1.png";
 
 const RegisterSection = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -15,6 +16,10 @@ const RegisterSection = () => {
 
   return (
     <section id="register" className="py-20 px-6 relative">
+      <div 
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${posterBg})` }}
+      />
       <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/20 to-background" />
       <div
         ref={ref}

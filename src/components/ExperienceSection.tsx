@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const features = [
-  { icon: "☕", title: "Cozy Café", desc: "An intimate setting bathed in warm golden light" },
-  { icon: "🎬", title: "Immersive Sound", desc: "Cinema-grade audio in an enclosed atmosphere" },
-  { icon: "✨", title: "Warm Lighting", desc: "Candlelit ambiance that mirrors the film's world" },
-  { icon: "🪑", title: "Intimate Seating", desc: "Carefully arranged for the perfect viewing angle" },
+  { icon: "", title: "Writer's Cafe", desc: "An immersive experience on a rooftop terrace, a cinematic and artistic cafe." },
+  { icon: "", title: "New Genre", desc: "Experience a fresh genre of a coming of age slasher." },
+  { icon: "", title: "Interactive Sessions", desc: "Interact with the cast and crew of Trust Me Productions." },
+  { icon: "", title: "Rooftop Ambience", desc: "Mixed the aesthetics to get you the best Cinema and Chill." },
 ];
 
 const ExperienceSection = () => {
@@ -53,7 +53,7 @@ const ExperienceSection = () => {
 
         <div className="text-center mt-12">
           <span className="inline-block glass-card rounded-full px-6 py-2 text-xs tracking-[0.3em] uppercase text-primary font-sans font-medium glow-border">
-            Only 35–40 seats per show
+            Exteremly Limited, Catch it before you miss it.
           </span>
         </div>
       </div>

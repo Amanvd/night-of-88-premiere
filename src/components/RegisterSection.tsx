@@ -14,7 +14,7 @@ const RegisterSection = () => {
   }, []);
 
   return (
-    <section id="register" className="py-20 px-6 relative">
+    <section id="register" className="pt-6 pb-10 md:pt-10 md:pb-20 px-6 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/20 to-background" />
       <div
         ref={ref}

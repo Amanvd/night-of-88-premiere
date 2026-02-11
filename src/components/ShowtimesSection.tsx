@@ -19,7 +19,7 @@ const ShowtimesSection = () => {
   }, []);
 
   return (
-    <section id="showtimes" className="py-20 px-6 relative film-grain">
+    <section id="showtimes" className="py-10 md:py-20 px-6 relative film-grain">
       <div
         ref={ref}
         className={`container mx-auto max-w-4xl transition-all duration-1000 ${

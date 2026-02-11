@@ -14,7 +14,7 @@ const AboutSection = () => {
   }, []);
 
   return (
-    <section id="about" className="py-20 px-6 relative film-grain">
+    <section id="about" className="py-10 md:py-20 px-6 relative film-grain">
       <div
         ref={ref}
         className={`container mx-auto max-w-3xl text-center transition-all duration-1000 ${

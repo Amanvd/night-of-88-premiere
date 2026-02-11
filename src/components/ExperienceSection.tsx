@@ -21,7 +21,7 @@ const ExperienceSection = () => {
   }, []);
 
   return (
-    <section id="experience" className="py-20 px-6 relative">
+    <section id="experience" className="py-10 md:py-20 px-6 relative">
       <div
         ref={ref}
         className={`container mx-auto max-w-5xl transition-all duration-1000 ${
@@ -41,7 +41,7 @@ const ExperienceSection = () => {
           {features.map((f, i) => (
             <div
               key={f.title}
-              className="glass-card rounded-lg p-8 text-center hover:glow-border transition-all duration-500"
+              className="glass-card rounded-lg p-8 text-center glow-border transition-all duration-500"
               style={{ transitionDelay: `${i * 100}ms` }}
             >
               <span className="text-3xl mb-4 block">{f.icon}</span>

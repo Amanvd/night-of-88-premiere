@@ -22,7 +22,7 @@ const Footer = () => (
         </a>
       </div>
 
-      <p className="text-[10px] tracking-[0.2em] uppercase text-muted-foreground/40 font-sans">
+      <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground/70 font-sans">
         Designed and deployed - Aman Chandra
       </p>
       <p className="text-[10px] tracking-[0.2em] uppercase text-muted-foreground/40 font-sans">

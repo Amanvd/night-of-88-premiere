@@ -4,7 +4,7 @@ A psychological thriller - Private café screening website.
 
 ## About
 
-This is the official website for "On The Night Of 88" private café screening event on 13 & 14 February. The site allows visitors to learn about the film and register for limited seats.
+This is the official website for "On The Night Of 88" private café screening event on 13 February. The site allows visitors to learn about the film and register for limited seats.
 
 ## Tech Stack
 

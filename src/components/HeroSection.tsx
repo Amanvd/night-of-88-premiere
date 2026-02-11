@@ -33,14 +33,27 @@ const HeroSection = () => {
             Private Café Screening · Limited Seats
           </p>
           <p className="text-2xl md:text-3xl font-serif text-foreground font-bold">
-            13 & 14 February
+            13 February , 6:30 PM onwards
           </p>
-          <a
-            href="#register"
-            className="inline-block mt-6 bg-primary text-primary-foreground text-sm tracking-[0.25em] uppercase px-8 sm:px-10 py-4 rounded-sm hover:bg-primary/90 transition-all duration-300 font-medium hover:shadow-[0_0_30px_hsl(0_72%_50%/0.3)]"
-          >
-            Reserve Your Seat
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
+            <a
+              href="#register"
+              className="inline-block bg-primary text-primary-foreground text-sm tracking-[0.25em] uppercase px-8 sm:px-10 py-4 rounded-sm hover:bg-primary/90 transition-all duration-300 font-medium hover:shadow-[0_0_30px_hsl(0_72%_50%/0.3)]"
+            >
+              Reserve Your Seat
+            </a>
+            <a
+              href="https://www.instagram.com/reel/DUAjUBtk-Wm/?igsh=MXNsNmwwbDM2cTVqMw=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white text-sm tracking-[0.2em] uppercase px-8 py-4 rounded-sm hover:scale-105 transition-all duration-300 font-medium shadow-lg hover:shadow-[0_0_30px_rgba(236,72,153,0.4)]"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                <polygon points="5 3 19 12 5 21 5 3"/>
+              </svg>
+              Watch Trailer
+            </a>
+          </div>
         </div>
       </div>
 

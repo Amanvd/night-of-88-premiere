@@ -3,10 +3,6 @@ import { useEffect, useRef, useState } from "react";
 const shows = [
   { date: "13 Feb", show: "Show 1", time: "6:30 pm", seats: "Limited" },
   { date: "13 Feb", show: "Show 2", time: "7:30 pm", seats: "Limited" },
-  { date: "13 Feb", show: "Show 3", time: "8:30 pm", seats: "Limited" },
-  { date: "14 Feb", show: "Show 1", time: "6:30 pm", seats: "Limited" },
-  { date: "14 Feb", show: "Show 2", time: "7:30 pm", seats: "Limited" },
-  { date: "14 Feb", show: "Show 3", time: "8:30 pm", seats: "Limited" },
 ];
 
 const ShowtimesSection = () => {
